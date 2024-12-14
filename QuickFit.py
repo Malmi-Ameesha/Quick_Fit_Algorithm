@@ -3,8 +3,8 @@ class QuickFit:
         # Memory blocks grouped by sizes
         self.memory = {
             50: {"block1": 50, "block2": 50},
-            100: {"block3": 100, "block4": 100},
-            200: {"block5": 200}
+            200: {"block3": 200, "block4": 200},
+            100: {"block5": 100}
         }
 
     def allocate(self, processSize):
