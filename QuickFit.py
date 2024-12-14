@@ -13,7 +13,7 @@ class QuickFit:
             for key, value in self.memory[processSize].items():
                 if value >= processSize and value != 0:
                     self.memory[processSize][key] = 0  # Mark the block as allocated
-                    return f"{processSize} ok"  # Print size and result
+                    return f"{processSize} Size can Allocate "  # Print size and result
         else:
             sorted_key = sorted(self.memory.keys())  # Sort the memory block sizes
             for key in sorted_key:
